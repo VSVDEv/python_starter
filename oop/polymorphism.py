@@ -51,7 +51,7 @@ Shape.draw(obj)
 
 
 class IsoscelesShape(object):
-    def __init__(self, side):
+    def __init__( self, side):
         self.side = side
 
     def render(self):
